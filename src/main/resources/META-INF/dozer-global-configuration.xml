@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<!-- TICKET <=> TICKET ORIGINAL 
+	<mapping>
+		<class-a>bean.ticket.Ticket</class-a>
+		<class-b>bean.ticketOut.TicketOUT</class-b>
+		<field>
+			<a is-accessible="true">TCK_TYPE</a>
+			<b is-accessible="true">TCK_TYPE</b>
+		</field>
+		<field>
+			<a is-accessible="true">TCK_VERSION</a>
+			<b is-accessible="true">TCK_VERSION</b>
+		</field>
+	</mapping
+	TICKET <=> TICKET ORIGINAL -->
+	
+	
+	<!-- TICKET8AB <=> TICKET8AB SHORT -->
+	<mapping>
+		<class-a>com.mycompany.camel.spring.bug.bean8ab.ticket8ab.Ticket8ab</class-a>
+		<class-b>com.mycompany.camel.spring.bug.bean8ab.ticketOut8ab2.Ticket8abShort</class-b>
+		<field>
+			<a is-accessible="true">NO_SEQ</a>
+			<b is-accessible="true">NO_SEQ</b>
+		</field>
+		<field>
+			<a is-accessible="true">TYPE_RX</a>
+			<b is-accessible="true">TYPE_RX</b>
+		</field>
+
+		<field>
+			<a is-accessible="true">TYPE_ACCES</a>
+			<b is-accessible="true">TYPE_ACCES</b>
+		</field>
+		<field>
+			<a is-accessible="true">RESULT_IN1</a>
+			<b is-accessible="true">RESULT_IN1</b>
+		</field>
+	</mapping>
+	
+	<!-- TICKET8AB <=> TICKET8AB ORIGINAL -->
+	<mapping>
+		<class-a>com.mycompany.camel.spring.bug.bean8ab.ticket8ab.Ticket8ab</class-a>
+		<class-b>com.mycompany.camel.spring.bug.bean8ab.ticketOut8ab.Ticket8abOriginal</class-b>
+		<field>
+			<a is-accessible="true">NO_SEQ</a>
+			<b is-accessible="true">NO_SEQ</b>
+		</field>
+		<field>
+			<a is-accessible="true">TYPE_RX</a>
+			<b is-accessible="true">TYPE_RX</b>
+		</field>
+		<field>
+			<a is-accessible="true">TYPE_ACCES</a>
+			<b is-accessible="true">TYPE_ACCES</b>
+		</field>
+		<field>
+			<a is-accessible="true">RESULT_IN1</a>
+			<b is-accessible="true">RESULT_IN1</b>
+		</field>
+		<field>
+			<a is-accessible="true">TYPE_SERV</a>
+			<b is-accessible="true">TYPE_SERV</b>
+		</field>
+		<field>
+			<a is-accessible="true">RESULT_ROUTAGE</a>
+			<b is-accessible="true">RESULT_ROUTAGE</b>
+		</field>
+		<field>
+			<a is-accessible="true">TYPE_APPEL</a>
+			<b is-accessible="true">TYPE_APPEL</b>
+		</field>
+		<field>
+			<a is-accessible="true">SERV_SUPPORT</a>
+			<b is-accessible="true">SERV_SUPPORT</b>
+		</field>
+		
+		<field>
+			<a is-accessible="true">CAT_APPELANT</a>
+			<b is-accessible="true">CAT_APPELANT</b>
+		</field>
+		<field>
+			<a is-accessible="true">SERV_SUPLEM</a>
+			<b is-accessible="true">SERV_SUPLEM</b>
+		</field>
+		<field>
+			<a is-accessible="true">IDENT_SCS</a>
+			<b is-accessible="true">IDENT_SCS</b>
+		</field>
+		<field>
+			<a is-accessible="true">IDENT_PROD</a>
+			<b is-accessible="true">IDENT_PROD</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_APPELANT</a>
+			<b is-accessible="true">NO_APPELANT</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_APPELANT_ADD</a>
+			<b is-accessible="true">NO_APPELANT_ADD</b>
+		</field>
+		<field>
+			<a is-accessible="true">PREFIXE</a>
+			<b is-accessible="true">PREFIXE</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_APPELE</a>
+			<b is-accessible="true">NO_APPELE</b>
+		</field>
+		<field>
+			<a is-accessible="true">DATE_APPEL</a>
+			<b is-accessible="true">DATE_APPEL</b>
+		</field>
+		
+		<field>
+			<a is-accessible="true">DUREE</a>
+			<b is-accessible="true">DUREE</b>
+		</field>
+		<field>
+			<a is-accessible="true">UNITE</a>
+			<b is-accessible="true">UNITE</b>
+		</field>
+		<field>
+			<a is-accessible="true">NB_ELEMT_SUUI</a>
+			<b is-accessible="true">NB_ELEMT_SUUI</b>
+		</field>
+		<field>
+			<a is-accessible="true">RESULT_APPEL</a>
+			<b is-accessible="true">RESULT_APPEL</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_CLIENT_RFN</a>
+			<b is-accessible="true">NO_CLIENT_RFN</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_CLIENT_SCS</a>
+			<b is-accessible="true">NO_CLIENT_SCS</b>
+		</field>
+		<field>
+			<a is-accessible="true">REF_APPEL</a>
+			<b is-accessible="true">REF_APPEL</b>
+		</field>
+		<field>
+			<a is-accessible="true">DUREE_PREPAR_APPEL</a>
+			<b is-accessible="true">DUREE_PREPAR_APPEL</b>
+		</field>
+		<field>
+			<a is-accessible="true">FORMAT_NO_TRAD_DEST</a>
+			<b is-accessible="true">FORMAT_NO_TRAD_DEST</b>
+		</field>
+		<field>
+			<a is-accessible="true">NO_TRADUIT_DEST</a>
+			<b is-accessible="true">NO_TRADUIT_DEST</b>
+		</field>	
+		<field>
+			<a is-accessible="true">FORMAT_NO_ORIG</a>
+			<b is-accessible="true">FORMAT_NO_ORIG</b>
+		</field>
+		
+		<field>
+			<a is-accessible="true">NO_CALLER_ORIG</a>
+			<b is-accessible="true">NO_CALLER_ORIG</b>
+		</field>
+		<field>
+			<a is-accessible="true">CODE_IMPUT</a>
+			<b is-accessible="true">CODE_IMPUT</b>
+		</field>
+		<field>
+			<a is-accessible="true">TELESERV</a>
+			<b is-accessible="true">TELESERV</b>
+		</field>
+		<field>
+			<a is-accessible="true">RESULT_TRAIT_IN</a>
+			<b is-accessible="true">RESULT_TRAIT_IN</b>
+		</field>
+		<field>
+			<a is-accessible="true">ORIG_APPELANT</a>
+			<b is-accessible="true">ORIG_APPELANT</b>
+		</field>
+		<field>
+			<a is-accessible="true">DUREE_QUEUING</a>
+			<b is-accessible="true">DUREE_QUEUING</b>
+		</field>
+		<field>
+			<a is-accessible="true">ZONE_FILLER</a>
+			<b is-accessible="true">ZONE_FILLER</b>
+		</field>
+		<field>
+			<a is-accessible="true">CODE_PORTA_CALLER</a>
+			<b is-accessible="true">CODE_PORTA_CALLER</b>
+		</field>
+		<field>
+			<a is-accessible="true">CODE_TARIF</a>
+			<b is-accessible="true">CODE_TARIF</b>
+		</field>
+		<field>
+			<a is-accessible="true">CODE_PORTA_NO_TRAD</a>
+			<b is-accessible="true">CODE_PORTA_NO_TRAD</b>
+		</field> 
+		<field>
+			<a is-accessible="true">FLAG_MASQ</a>
+			<b is-accessible="true">FLAG_MASQ</b>
+		</field> 		
+	</mapping>
+
+</mappings> 
+      
